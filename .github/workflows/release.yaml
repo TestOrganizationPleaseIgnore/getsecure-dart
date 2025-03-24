@@ -9,12 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     environment: main
-    permissions:
-      # IMPORTANT: this permission is mandatory for trusted publishing
-      id-token: write
-      contents: write
-      issues: write
-      pull-requests: write
+    concurrency: release
     steps:
       - name: Generate token from app token #https://github.com/tibdex/github-app-token
         id: generate_token
@@ -22,6 +17,7 @@ jobs:
         with:
           app_id: ${{ secrets.RELEASE_BOT_APP_ID }}
           private_key: ${{ secrets.RELEASE_BOT_PKEY }}
+
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
