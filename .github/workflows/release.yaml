@@ -52,4 +52,4 @@ jobs:
           --ref \$MELOS_PACKAGE_NAME-v\$MELOS_PACKAGE_VERSION
         env:
           GITHUB_TOKEN: ${{ secrets.P_TOKEN }}
-
+          GH_TOKEN: ${{ secrets.P_TOKEN }}
