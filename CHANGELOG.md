@@ -1,3 +1,48 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## 2025-03-24
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`getsecure` - `v1.1.0`](#getsecure---v110)
+
+---
+
+#### `getsecure` - `v1.1.0`
+
+ - **FIX**: use ptoken.
+ - **FIX**: bump version.
+ - **FIX**: add changelog.
+ - **FIX**: prepare for publishing.
+ - **FEAT**: Update CHANGELOG.md.
+ - **FEAT**: update.
+ - **FEAT**: update.
+ - **FEAT**: release pipeline.
+ - **FEAT**: init.
+
+## 1.1.0
+
+ - **FIX**: use ptoken.
+ - **FIX**: bump version.
+ - **FIX**: add changelog.
+ - **FIX**: prepare for publishing.
+ - **FEAT**: Update CHANGELOG.md.
+ - **FEAT**: update.
+ - **FEAT**: update.
+ - **FEAT**: release pipeline.
+ - **FEAT**: init.
+
 1.0.0 - Initial release
 
 1.0.1 - Preparing for pub.dev
