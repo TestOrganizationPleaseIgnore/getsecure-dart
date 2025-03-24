@@ -1,0 +1,9 @@
+name: getsecure
+
+packages:
+  - "./"
+
+
+scripts:
+  test:
+    exec: dart test -r github --file-reporter json:.test-results.json
