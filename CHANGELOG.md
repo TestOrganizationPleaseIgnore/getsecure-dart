@@ -15,6 +15,31 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`getsecure` - `v1.2.6`](#getsecure---v126)
+
+---
+
+#### `getsecure` - `v1.2.6`
+
+ - **FIX**: add ci.
+
+## 1.2.6
+
+ - **FIX**: add ci.
+
+
+## 2025-03-25
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`getsecure` - `v1.2.5`](#getsecure---v125)
 
 ---
