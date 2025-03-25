@@ -44,7 +44,7 @@ jobs:
             run-versioning: true
             publish-dry-run: true
             tag: true
-            create-pr: true
+            create-pr: false
         env: 
             GH_TOKEN: ${{ secrets.P_TOKEN }}
 
