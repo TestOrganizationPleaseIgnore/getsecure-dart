@@ -17,13 +17,15 @@ void main() {
       expect(uri.queryParameters.containsKey('expires'), isTrue);
 
       int expires = int.parse(uri.queryParameters['expires']!);
-      expect(expires, greaterThan(DateTime.now().millisecondsSinceEpoch ~/ 1000));
+      expect(
+          expires, greaterThan(DateTime.now().millisecondsSinceEpoch ~/ 1000));
 
       // Verify MD5 hash
       String expectedHashString = '$expires${Uri.parse(baselink).path} $secret';
       List<int> expectedBytes = utf8.encode(expectedHashString);
       Digest expectedDigest = md5.convert(expectedBytes);
-      String expectedProtectionString = base64Url.encode(expectedDigest.bytes).replaceAll('=', '');
+      String expectedProtectionString =
+          base64Url.encode(expectedDigest.bytes).replaceAll('=', '');
       expect(uri.queryParameters['md5'], expectedProtectionString);
     });
   });
