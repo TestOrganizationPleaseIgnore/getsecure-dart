@@ -3,6 +3,57 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2025-03-25
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`getsecure` - `v1.2.0`](#getsecure---v120)
+
+---
+
+#### `getsecure` - `v1.2.0`
+
+ - **FIX**: add ci.
+ - **FIX**: add ci.
+ - **FIX**: add ci.
+ - **FIX**: add ci.
+ - **FIX**: add ci.
+ - **FIX**: use ptoken.
+ - **FIX**: bump version.
+ - **FIX**: add changelog.
+ - **FIX**: prepare for publishing.
+ - **FEAT**: Update CHANGELOG.md.
+ - **FEAT**: update.
+ - **FEAT**: update.
+ - **FEAT**: release pipeline.
+ - **FEAT**: init.
+
+## 1.2.0
+
+ - **FIX**: add ci.
+ - **FIX**: add ci.
+ - **FIX**: add ci.
+ - **FIX**: add ci.
+ - **FIX**: add ci.
+ - **FIX**: use ptoken.
+ - **FIX**: bump version.
+ - **FIX**: add changelog.
+ - **FIX**: prepare for publishing.
+ - **FEAT**: Update CHANGELOG.md.
+ - **FEAT**: update.
+ - **FEAT**: update.
+ - **FEAT**: release pipeline.
+ - **FEAT**: init.
+
+
 ## 2025-03-24
 
 ### Changes
