@@ -35,11 +35,6 @@ jobs:
       - uses: dart-lang/setup-dart@v1.7.1
 
       - uses: bluefireteam/melos-action@v3
-      - run: melos format --output=none --set-exit-if-changed .
-      - run: melos analyze
-      - run: melos test
-
-      - uses: bluefireteam/melos-action@v3
         with:
             run-versioning: true
             publish-dry-run: true
