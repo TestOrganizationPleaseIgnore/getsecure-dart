@@ -45,11 +45,11 @@ jobs:
             publish-dry-run: true
             tag: true
             create-pr: true
-            
-      - run: |
-          melos exec -c 1 --no-published --no-private --order-dependents -- \
-          gh workflow run release-publish.yml \
-          --ref \$MELOS_PACKAGE_NAME-v\$MELOS_PACKAGE_VERSION
-        env:
-          GITHUB_TOKEN: ${{ secrets.P_TOKEN }}
-          GH_TOKEN: ${{ secrets.P_TOKEN }}
+
+      - name: Push Tags
+        run: git push --follow-tags
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          generate_release_notes: true            
