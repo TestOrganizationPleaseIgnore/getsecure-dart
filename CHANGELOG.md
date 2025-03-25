@@ -15,6 +15,33 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`getsecure` - `v1.3.0`](#getsecure---v130)
+
+---
+
+#### `getsecure` - `v1.3.0`
+
+ - **FIX**: remove comment.
+ - **FEAT**: add coverage badge.
+
+## 1.3.0
+
+ - **FIX**: remove comment.
+ - **FEAT**: add coverage badge.
+
+
+## 2025-03-25
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`getsecure` - `v1.2.8`](#getsecure---v128)
 
 ---
