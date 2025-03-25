@@ -45,6 +45,8 @@ jobs:
             publish-dry-run: true
             tag: true
             create-pr: true
+        env: 
+            GH_TOKEN: ${{ secrets.P_TOKEN }}
 
       - name: Push Tags
         run: git push --follow-tags
