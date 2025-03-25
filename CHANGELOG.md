@@ -15,6 +15,31 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`getsecure` - `v1.3.3`](#getsecure---v133)
+
+---
+
+#### `getsecure` - `v1.3.3`
+
+ - **FIX**: coverage align.
+
+## 1.3.3
+
+ - **FIX**: coverage align.
+
+
+## 2025-03-25
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`getsecure` - `v1.3.2`](#getsecure---v132)
 
 ---
