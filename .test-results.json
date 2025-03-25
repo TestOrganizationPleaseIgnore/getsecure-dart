@@ -1,10 +1,10 @@
-{"protocolVersion":"0.1.1","runnerVersion":"1.25.15","pid":2142,"type":"start","time":0}
+{"protocolVersion":"0.1.1","runnerVersion":"1.25.15","pid":2162,"type":"start","time":0}
 {"suite":{"id":0,"platform":"vm","path":"test/example_test.dart"},"type":"suite","time":0}
-{"test":{"id":1,"name":"loading test/example_test.dart","suiteID":0,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":42}
-{"count":1,"time":52,"type":"allSuites"}
+{"test":{"id":1,"name":"loading test/example_test.dart","suiteID":0,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":33}
+{"count":1,"time":43,"type":"allSuites"}
 {"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":771}
-{"group":{"id":2,"suiteID":0,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":null,"column":null,"url":null},"type":"group","time":774}
+{"group":{"id":2,"suiteID":0,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":null,"column":null,"url":null},"type":"group","time":775}
 {"group":{"id":3,"suiteID":0,"parentID":2,"name":"A group of tests","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":4,"column":3,"url":"file:///home/runner/work/getsecure-dart/getsecure-dart/test/example_test.dart"},"type":"group","time":776}
 {"test":{"id":4,"name":"A group of tests First Test","suiteID":0,"groupIDs":[2,3],"metadata":{"skip":false,"skipReason":null},"line":11,"column":5,"url":"file:///home/runner/work/getsecure-dart/getsecure-dart/test/example_test.dart"},"type":"testStart","time":776}
-{"testID":4,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":793}
-{"success":true,"type":"done","time":809}
+{"testID":4,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":794}
+{"success":true,"type":"done","time":806}
