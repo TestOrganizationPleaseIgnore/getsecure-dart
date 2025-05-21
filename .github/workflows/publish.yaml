@@ -18,10 +18,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Debug OIDC Claims
-        uses: github/actions-oidc-debugger@main
-        with:
-          audience: "${{ github.server_url }}/${{ github.repository_owner }}"
+      # - name: Debug OIDC Claims
+      #   uses: github/actions-oidc-debugger@main
+      #   with:
+      #     audience: "${{ github.server_url }}/${{ github.repository_owner }}"
 
       - uses: dart-lang/setup-dart@v1
 
