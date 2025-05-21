@@ -34,7 +34,7 @@ jobs:
         run: cat $GITHUB_ENV
 
       - name: pub get
-        run: flutter pub get
+        run: dart pub get
       
       # - run: sed -i "s|^version: .*|version: ${RELEASE_VERSION}|" pubspec.yaml
       - run: dart pub publish --skip-validation --force
