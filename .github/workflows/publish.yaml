@@ -1,70 +1,12 @@
-name: publish
-
+name: "publish"
 on:
-  workflow_call:
   push:
     tags:
-      # - "getsecure-v[0-9]+.[0-9]+.[0-9]+"
       - "**v[0-9]+.[0-9]+.[0-9]+*"
+  workflow_dispatch:
 jobs:
-  publish-packages:
-    name: Publish packages
-    environment: release
-    permissions:
-      contents: write
-      id-token: write # Required for authentication using OIDC
-    runs-on: [ubuntu-latest]
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - uses: dart-lang/setup-dart@v1.7.1
-      - uses: bluefireteam/melos-action@v3
-        with:
-          publish: true
-# name: "publish"
-
-# jobs:
-#   oidc_debug_test:
-#     permissions:
-#       contents: read
-#       id-token: write
-#     runs-on: ubuntu-latest
-#     name: A test of the oidc debugger
-#     steps:
-#       - name: Checkout Repository
-#         uses: actions/checkout@v4
-#         with:
-#           fetch-depth: 0
-
-#       # - name: Debug OIDC Claims
-#       #   uses: github/actions-oidc-debugger@main
-#       #   with:
-#       #     audience: "${{ github.server_url }}/${{ github.repository_owner }}"
-
-#       - uses: dart-lang/setup-dart@v1
-
-#       # - name: Setup Flutter SDK
-#       #   uses: flutter-actions/setup-flutter@v4
-#       #   with:
-#       #     channel: stable
-#       #     version: "3.27.0"
-
-#       # - name: Setup pub.dev credentials
-#       #   uses: flutter-actions/setup-pubdev-credentials@v1
-
-#       # - name: Set up Flutter
-#       #   uses: subosito/flutter-action@v2
-
-#       - run: echo "RELEASE_VERSION=$(echo ${GITHUB_REF#refs/tags/} | cut -d'-' -f2,3 |  cut -c2- )" >> $GITHUB_ENV
-#       - name: Extract Project Name from Tag
-#         run: echo "PROJECT_NAME=$(echo ${GITHUB_REF#refs/tags/} | cut -d'-' -f1)" >> $GITHUB_ENV
-
-#       - name: Get GITHUB_ENV
-#         run: cat $GITHUB_ENV
-
-#       - name: pub get
-#         run: dart pub get
-
-#       # - run: sed -i "s|^version: .*|version: ${RELEASE_VERSION}|" pubspec.yaml
-#       - run: dart pub publish --skip-validation --force
+  dart-pipeline:
+    uses: affinidi/pipeline-dart/.github/workflows/publish.yaml@feat/flutter-dependant-workflows
+    secrets: inherit
+    with:
+      publish: true
