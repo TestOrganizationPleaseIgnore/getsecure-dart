@@ -11,6 +11,43 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 Packages with breaking changes:
 
+ - [`getsecure` - `v4.0.0`](#getsecure---v400)
+
+Packages with other changes:
+
+ - There are no other changes in this release.
+
+---
+
+#### `getsecure` - `v4.0.0`
+
+ - **BREAKING** **FIX**: version.
+
+    dsfasdf
+    asdfasdf
+    sdfasdf
+
+
+## 4.0.0
+
+> Note: This release has breaking changes.
+
+ - **BREAKING** **FIX**: version.
+
+    dsfasdf
+    asdfasdf
+    sdfasdf
+
+
+
+## 2025-07-10
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
  - [`getsecure` - `v3.0.0`](#getsecure---v300)
 
 Packages with other changes:
