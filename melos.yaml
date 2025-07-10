@@ -3,9 +3,14 @@ name: getsecure
 packages:
   - "./"
 
-
 scripts:
   test:
     name: test
-    description: 
+    description:
     exec: dart run coverage:test_with_coverage
+
+command:
+  version:
+    changelogCommitBodies:
+      include: true
+      onlyBreaking: false
