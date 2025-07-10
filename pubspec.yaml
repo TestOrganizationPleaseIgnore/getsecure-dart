@@ -1,12 +1,12 @@
 name: getsecure
 description: Secure links for limited time access with simple md5 hash. Generate time-limited URLs with hash-based protection.
-version: 1.3.3
+version: 4.0.0
 repository: https://github.com/TestOrganizationPleaseIgnore/getsecure-dart
 homepage: https://github.com/TestOrganizationPleaseIgnore/getsecure-dart
 documentation: https://github.com/TestOrganizationPleaseIgnore/getsecure-dart/blob/main/README.md
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: ^3.6.0
 
 dependencies:
   crypto: ^3.0.3
@@ -15,7 +15,7 @@ dependencies:
 dev_dependencies:
   lints: ^5.0.0
   test: ^1.24.0
-  melos: ^6.3.2
+  melos: ^6.0.0
   coverage: ^1.11.1
 
 topics:
@@ -23,3 +23,10 @@ topics:
   - url
   - hash
   - md5
+
+melos:
+  command:
+    version:
+      changelogCommitBodies:
+        include: true
+        onlyBreaking: false

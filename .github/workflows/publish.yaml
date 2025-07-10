@@ -1,11 +1,14 @@
-name: "release"
-
+name: "publish"
+permissions:
+  contents: write
 on:
   push:
-    branches:
-      - main
-
+    tags:
+      - "**v[0-9]+.[0-9]+.[0-9]+*"
+  workflow_dispatch:
 jobs:
   dart-pipeline:
-    uses: affinidi/pipeline-dart/.github/workflows/release.yaml@main
+    uses: affinidi/pipeline-dart/.github/workflows/publish.yaml@main
     secrets: inherit
+    with:
+      publish: true
