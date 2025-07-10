@@ -1,9 +1,9 @@
 name: checks
 
-on: 
+on:
   pull_request:
-     
+
 jobs:
   dart-pipeline:
-    uses: affinidi/pipeline-dart/.github/workflows/check.yaml@feat/flutter-dependant-workflows
+    uses: affinidi/pipeline-dart/.github/workflows/check.yaml@main
     secrets: inherit
