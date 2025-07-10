@@ -11,6 +11,33 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 Packages with breaking changes:
 
+ - [`getsecure` - `v3.0.0`](#getsecure---v300)
+
+Packages with other changes:
+
+ - There are no other changes in this release.
+
+---
+
+#### `getsecure` - `v3.0.0`
+
+ - **BREAKING** **FEAT**: super duper.
+
+## 3.0.0
+
+> Note: This release has breaking changes.
+
+ - **BREAKING** **FEAT**: super duper.
+
+
+## 2025-07-10
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
  - [`getsecure` - `v2.0.0`](#getsecure---v200)
 
 Packages with other changes:
