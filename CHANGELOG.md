@@ -3,6 +3,39 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2025-07-10
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - [`getsecure` - `v2.0.0`](#getsecure---v200)
+
+Packages with other changes:
+
+ - There are no other changes in this release.
+
+---
+
+#### `getsecure` - `v2.0.0`
+
+ - **FIX**: pipeline.
+ - **FIX**: add bodies to release.
+ - **FEAT**: switch to feature branch in the pipeline repo.
+ - **BREAKING** **FEAT**: wow.
+
+## 2.0.0
+
+> Note: This release has breaking changes.
+
+ - **FIX**: pipeline.
+ - **FIX**: add bodies to release.
+ - **FEAT**: switch to feature branch in the pipeline repo.
+ - **BREAKING** **FEAT**: wow.
+
+
 ## 2025-03-25
 
 ### Changes
