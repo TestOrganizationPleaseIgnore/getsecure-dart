@@ -6,7 +6,7 @@ homepage: https://github.com/TestOrganizationPleaseIgnore/getsecure-dart
 documentation: https://github.com/TestOrganizationPleaseIgnore/getsecure-dart/blob/main/README.md
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   crypto: ^3.0.3
@@ -23,3 +23,10 @@ topics:
   - url
   - hash
   - md5
+
+melos:
+  command:
+    version:
+      changelogCommitBodies:
+        include: true
+        onlyBreaking: false
